@@ -62,7 +62,4 @@
     <Build Include="Contact.sql" />
     <Build Include="Message.sql" />
   </ItemGroup>
-  <ItemGroup>
-    <RefactorLog Include="Directum.MessagerSQL.refactorlog" />
-  </ItemGroup>
 </Project>

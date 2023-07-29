@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32319.34
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Directum.MessagerDAL", "Directum.MessagerDAL\Directum.MessagerDAL.csproj", "{4A839B26-EB15-4379-A3AF-23117FD69870}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Directum.MessagerDAL", "Directum.MessagerDAL\Directum.MessagerDAL.csproj", "{4A839B26-EB15-4379-A3AF-23117FD69870}"
 EndProject
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Directum.MessagerSQL", "Directum.MessagerSQL\Directum.MessagerSQL.sqlproj", "{CC5E08D7-70ED-497F-AF6E-034F6FABBD80}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Directum.MessagerDAL.Tests", "Directum.MessagerDAL.Tests\Directum.MessagerDAL.Tests.csproj", "{E06FB509-6AF5-4EE5-A4F6-86550239F078}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Directum.MessagerDAL.ConsoleTest", "Directum.MessagerDAL.ConsoleTest\Directum.MessagerDAL.ConsoleTest.csproj", "{2B4C2DB5-456F-482B-861F-A6B5FBBC85A4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,10 +25,10 @@ Global
 		{CC5E08D7-70ED-497F-AF6E-034F6FABBD80}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CC5E08D7-70ED-497F-AF6E-034F6FABBD80}.Release|Any CPU.Build.0 = Release|Any CPU
 		{CC5E08D7-70ED-497F-AF6E-034F6FABBD80}.Release|Any CPU.Deploy.0 = Release|Any CPU
-		{E06FB509-6AF5-4EE5-A4F6-86550239F078}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E06FB509-6AF5-4EE5-A4F6-86550239F078}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E06FB509-6AF5-4EE5-A4F6-86550239F078}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E06FB509-6AF5-4EE5-A4F6-86550239F078}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B4C2DB5-456F-482B-861F-A6B5FBBC85A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B4C2DB5-456F-482B-861F-A6B5FBBC85A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B4C2DB5-456F-482B-861F-A6B5FBBC85A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B4C2DB5-456F-482B-861F-A6B5FBBC85A4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
