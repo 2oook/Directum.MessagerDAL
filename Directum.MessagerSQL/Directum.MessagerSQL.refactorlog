@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="c96c558a-1f9b-4fb5-8f7e-7c238596e98a" ChangeDateTime="07/29/2023 06:58:40">
+    <Property Name="ElementName" Value="[dbo].[Contact].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Contact]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="UserId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="ac60eb8c-5b38-48db-ac1a-dd95a2456955" ChangeDateTime="07/29/2023 07:01:30">
+    <Property Name="ElementName" Value="[dbo].[Message].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Message]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="UserId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="b1bc51c1-1efd-4971-a537-1befa145e6da" ChangeDateTime="07/29/2023 07:33:39">
+    <Property Name="ElementName" Value="[dbo].[FK_Message_ToTable]" />
+    <Property Name="ElementType" Value="SqlForeignKeyConstraint" />
+    <Property Name="ParentElementName" Value="[dbo].[Message]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[FK_Message_User]" />
+  </Operation>
+</Operations>
