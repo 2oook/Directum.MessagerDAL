@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Directum.MessagerDAL", "Dir
 EndProject
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Directum.MessagerSQL", "Directum.MessagerSQL\Directum.MessagerSQL.sqlproj", "{CC5E08D7-70ED-497F-AF6E-034F6FABBD80}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Directum.MessagerDAL.ConsoleTest", "Directum.MessagerDAL.ConsoleTest\Directum.MessagerDAL.ConsoleTest.csproj", "{2B4C2DB5-456F-482B-861F-A6B5FBBC85A4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Directum.MessagerDAL.ConsoleTest", "Directum.MessagerDAL.ConsoleTest\Directum.MessagerDAL.ConsoleTest.csproj", "{2B4C2DB5-456F-482B-861F-A6B5FBBC85A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Directum.Refactoring", "Directum.Refactoring\Directum.Refactoring.csproj", "{EED70BEC-76E0-43C6-8828-B77357991E88}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,6 +31,10 @@ Global
 		{2B4C2DB5-456F-482B-861F-A6B5FBBC85A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2B4C2DB5-456F-482B-861F-A6B5FBBC85A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2B4C2DB5-456F-482B-861F-A6B5FBBC85A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EED70BEC-76E0-43C6-8828-B77357991E88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EED70BEC-76E0-43C6-8828-B77357991E88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EED70BEC-76E0-43C6-8828-B77357991E88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EED70BEC-76E0-43C6-8828-B77357991E88}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
